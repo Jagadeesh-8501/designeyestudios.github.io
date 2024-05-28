@@ -241,6 +241,9 @@ host, :root {
     margin-top: 1.3rem;
     margin-left: 80%;
 }
+.head-innerdiv p{
+    color: white;
+}
 @media screen and (max-width:420px) {
     .demo{
         margin-top: 0.3rem;
