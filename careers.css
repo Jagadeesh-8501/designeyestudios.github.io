@@ -190,13 +190,13 @@ host, :root {
 }
 #nav1.open {
     display: block;
-    animation: slideDown 2.5s forwards;
-    -webkit-animation: slideDown 2.5s forwards;
+    animation: slideDown 1s forwards;
+    -webkit-animation: slideDown 1s forwards;
 }
 #nav1.close{
     display: none;
-    animation: slideUp 2.5s forwards;
-    -webkit-animation: slideUp 2.5s forwards;
+    animation: slideUp 1s forwards;
+    -webkit-animation: slideUp 1s forwards;
 }
 @keyframes slideDown {
     0% {
