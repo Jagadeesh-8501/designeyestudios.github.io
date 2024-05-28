@@ -97,7 +97,9 @@ host, :root {
     position: absolute;
     color: white;
 }
-
+.head-innerdiv p{
+    color: white;
+}
 .Header1 p{
     color: rgb(0, 0, 0);
     z-index: 5;
