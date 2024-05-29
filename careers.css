@@ -121,7 +121,7 @@ host, :root {
 }
 
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
- @media screen and (max-width: 420px) {
+ @media screen and (max-width: 470px) {
     div.mid1 {
       display: NONE;
     }
@@ -232,7 +232,7 @@ host, :root {
         -o-transform: translateY(0%);
 }
   }
-  @media (max-width:420px) {
+  @media (max-width:470px) {
     .nav1{
         width:1000px;
         height: 2200px;
@@ -246,7 +246,7 @@ host, :root {
     margin-top: 1.3rem;
     margin-left: 80%;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:470px) {
     .demo{
         margin-top: 0.3rem;
         margin-left: 78%;
@@ -359,7 +359,7 @@ span {
 		}
 	}
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:470px) {
     span {
 		background-color: #ffffff;
 	}
@@ -425,7 +425,7 @@ span {
 .section-heading{
     margin-left: 4rem;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
     div.social ,div.contact {
       font-size: 15px;
       margin-left: 1%;
@@ -482,7 +482,7 @@ span {
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 470px) {
     .about-right1 p,.about-right2 p{
         margin-top:3rem;
         font-size: 15px;
@@ -557,7 +557,7 @@ span {
 }
 
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:470px) {
     div.team12{
         margin-top:4rem;
         font-size: 50px;
@@ -741,12 +741,12 @@ footer{
     margin-top: 20rem;
     z-index: 2;
 }
-@media screen and (min-width:500px) {
+@media screen and (min-width:470px) {
     .footer-innerdiv{
         width: 88.8rem;
     }
 }
-@media screen and (max-width:420px) {    
+@media screen and (max-width:470px) {    
     .scroljob{
         overflow-y:scroll;
         height: 40rem;
