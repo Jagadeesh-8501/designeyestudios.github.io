@@ -744,7 +744,7 @@ footer{
 }
 @media screen and (min-width:500px) {
     .footer-innerdiv{
-        width: 61rem;
+        width: 88.8rem;
     }
 }
 @media screen and (max-width:420px) {    
@@ -814,18 +814,18 @@ footer{
         left:35%;
     }
     .footer-innerdiv{
-        background-color: #b4b4b4cc;
+        background-color: #747474;
         text-align: center;
         display:flex;
         flex-direction: column;
-        width: 355%;
+        width: 325%;
         height:200px;
         position:relative;
         margin-top: 35rem;
         z-index: -1;
     }
     .footer-innerdiv p{
-        background-color: #b4b4b4cc;
+        background-color: #747474;
         text-align: center;
         display:flex;
         flex-direction: column;
