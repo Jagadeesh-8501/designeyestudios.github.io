@@ -388,6 +388,7 @@ span {
 }
 .head-innerdiv p{
     margin: 0px;
+    color: white;
 }
 .contact{
     margin-top: 80px;
@@ -738,7 +739,7 @@ footer{
     flex-direction: row;
     width: 87.5rem;
     position:relative;
-    z-index: 2;
+    z-index: -1;
 }
 @media screen and (max-width:420px) {    
     .scroljob{
@@ -820,9 +821,12 @@ footer{
     flex-direction: column;
     width: 22rem;
     position:relative;
-    margin-top: 80rem;
-    z-index: 2;
+    margin-top: 86.3rem;
+    z-index: -1;
     }
+}
+.no-scroll {
+    overflow: hidden;
 }
 .jobs1 h3{
     font-size: 30px;
@@ -862,11 +866,15 @@ footer{
     width: 210px;
     text-align: center;
     background: rgba( 255, 255, 255, 0.2 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 8.5px );
--webkit-backdrop-filter: blur( 8.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .pro1,.pro2 ,.pro3 ,.pro4{
