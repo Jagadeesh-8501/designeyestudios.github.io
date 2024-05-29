@@ -174,7 +174,7 @@ host, :root {
     /*Removemargins*/
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     color: white;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -240,9 +240,6 @@ host, :root {
     position: fixed;
     margin-top: 1.3rem;
     margin-left: 80%;
-}
-.head-innerdiv p{
-    color: white;
 }
 @media screen and (max-width:420px) {
     .demo{
@@ -379,6 +376,7 @@ span {
 }
 .head-innerdiv p{
     margin: 0px;
+    color: white;
 }
 .contact{
     margin-top: 80px;
@@ -511,6 +509,7 @@ span {
     background-color: #22223b;
     margin-top:5rem;
     color: white;
+    z-index: 0;
 }
 .team12{
     font-family: "DM Sans", sans-serif;
@@ -556,14 +555,14 @@ span {
     -o-border-radius: 37% 63% 44% 56% / 55% 43% 57% 45%;
 }
 .footer {
-    background-color: #747474;
+    background-color: #ffffff00;
     color: white;
     text-align: center;
     padding: 20px 0 0 0;
     position: absolute;
     width: 100%;
     bottom: 0;
-    top:50rem;
+    top:49rem;
     margin-top:144rem ;
     font-family: 'Roboto', sans-serif;
 }
@@ -575,7 +574,10 @@ span {
     display:flex;
     flex-direction: row;
     position:relative;
-    z-index: 2;
+    z-index: 1;
+}
+.no-scroll {
+    overflow: hidden;
 }
 .head-innerdiv12{
     margin-left: 60px;
@@ -584,7 +586,7 @@ span {
     cursive, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     font-style: normal;
-    z-index: 1;
+    z-index: 0;
 }
 .head-innerdiv12 p{
     margin: 0px;
@@ -632,17 +634,7 @@ span {
         display: flex;
         flex-direction:column;
     }
-    .footer-innerdiv{
-    background-color: #b4b4b4cc;
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    position:relative;
-    margin-top: 0rem;
-    z-index: 2;
-    height: 200px;
-    }
+
 }
 .div1 img{
     margin-left: 30px;
@@ -659,9 +651,9 @@ span {
     width: 200px;
 }
 .social1 {
-    margin-left: 65px;
-    margin-top: 70px;
+    margin-top: 20px;
     display: flexbox;
+    margin-left: 10px;
     flex: auto;
 }
 .contact2, .social1 {
@@ -722,10 +714,41 @@ div.head-innerdiv12 {
     .footer-innerdiv {
         flex-direction: column;
         text-align: center;
+        width: 100%;
+        height: 300px;
+        display:flex;
+        padding: 0px;
     }
     div.social, div.contact {
         font-size: 15px;
         margin-left: 1%;
+    }
+    .contact2 {
+        margin-top: 80px;
+        font-size: 20px;
+        z-index: 1;
+        width: 100%;
+        margin: auto;
+        font-family: "Roboto", sans-serif;
+    }
+    .footer-innerdiv p{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 10px;
+        position: relative;
+        z-index: 1;
+        padding: -20px;
+    }
+    .footer{
+        margin-top: 147rem;
+    }
+    .head-innerdiv p{
+        margin-top: 0px;
+    }
+    .contact12 p{
+        margin-top: 10px;
     }
 }
 
