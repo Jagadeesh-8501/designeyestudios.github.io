@@ -97,9 +97,7 @@ host, :root {
     position: absolute;
     color: white;
 }
-.head-innerdiv p{
-    color: white;
-}
+
 .Header1 p{
     color: rgb(0, 0, 0);
     z-index: 5;
@@ -258,9 +256,13 @@ host, :root {
 	width:30px;
 	height:30px;
 	color:#FFF;
-    border:none;
-    z-index: 3;
+	border:none;
+	z-index: 3;
 	border-radius:50px;
+	-webkit-border-radius:50px;
+	-moz-border-radius:50px;
+	-ms-border-radius:50px;
+	-o-border-radius:50px;
 }
 .nav_button:hover{
     height: 35px;
@@ -382,6 +384,7 @@ span {
 }
 .head-innerdiv p{
     margin: 0px;
+    color:white;
 }
 .contact{
     margin-top: 80px;
@@ -732,14 +735,17 @@ footer{
 }
 .footer-innerdiv{
     background-color: #747474;
-    padding: 10px;
     text-align: center;
     display:flex;
     flex-direction: row;
-    width: 241%;
     position:relative;
     margin-top: 20rem;
     z-index: 2;
+}
+@media screen and (min-width:500px) {
+    .footer-innerdiv{
+        width: 61rem;
+    }
 }
 @media screen and (max-width:420px) {    
     .scroljob{
@@ -808,18 +814,36 @@ footer{
         left:35%;
     }
     .footer-innerdiv{
-    background-color: #b4b4b4cc;
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    width: 225%;
-    position:relative;
-    margin-top: 35rem;
-    z-index: 2;
+        background-color: #b4b4b4cc;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        width: 355%;
+        height:200px;
+        position:relative;
+        margin-top: 35rem;
+        z-index: -1;
     }
+    .footer-innerdiv p{
+        background-color: #b4b4b4cc;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        margin:0px;
+        position:relative;
+        z-index: 2;
+        padding: -20px;
+        }
+        .contact2{
+            margin-left:-20px;
+        }
 }
 .jobs1 h3{
     font-size: 30px;
+}
+.no-scroll {
+    overflow: hidden;
 }
 .lin1{
     width: 10rem;
