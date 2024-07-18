@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Senior Architect",
+        "description": "We are seeking an experienced Senior Architect to lead our design projects. Must have 10+ years of experience.",
+        "location": "City, Country",
+        "requirements": [
+            "10+ years of experience in architectural design.",
+            "Strong leadership and project management skills.",
+            "Proficiency in AutoCAD, Revit, and other design software.",
+            "Excellent communication and teamwork abilities."
+        ]
+    },
+    {
+        "title": "Project Manager",
+        "description": "Looking for a skilled Project Manager to oversee our construction projects. Must have 5+ years of experience.",
+        "location": "City, Country",
+        "requirements": [
+            "5+ years of experience in project management.",
+            "Strong organizational and leadership skills.",
+            "Experience with construction management software.",
+            "Excellent communication ."
+        ]
+    }
+]
